@@ -1,0 +1,12 @@
+        else{
+            p = strtok(oneline," ");
+            while (p != NULL){
+                string token = "";
+                token += p;
+                data_vec.push_back(token);
+                p = strtok(NULL, "");
+            }
+            for (auto it: data_vec){
+                cout << it << endl;
+            }
+        }

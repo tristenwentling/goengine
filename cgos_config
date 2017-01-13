@@ -1,0 +1,13 @@
+# config file for testing my version of Engine
+# ------------------------------------------------
+
+%section server
+    server cgos.boardspace.net
+    port 6867
+
+%section player
+     name      Enders Go Engine
+     password  game
+     invoke    ./game
+     priority  1
+
